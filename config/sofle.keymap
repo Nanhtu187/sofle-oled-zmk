@@ -50,7 +50,9 @@
                    &kp MINUS  &kp EQUAL  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI    &kp SPACE  &kp ENTER  &mo 1   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
