@@ -27,7 +27,7 @@ layers:
   - '9'
   - '0'
   - F12
-  - END
+  - CAPSLOCK
   - '!'
   - '@'
   - '#'
@@ -39,7 +39,7 @@ layers:
   - (
   - )
   - '|'
-  - CAPSLOCK
+  - {t: ▽, type: trans}
   - '='
   - '-'
   - KP PLUS
