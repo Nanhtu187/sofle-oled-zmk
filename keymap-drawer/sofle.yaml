@@ -61,8 +61,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Ctl+-
-  - Ctl++
+  - Ctl+LEFT
+  - Ctl+RIGHT
   raise:
   - BT CLR
   - {t: BT, h: '0'}
