@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
+  - +
   - '{'
   - '}'
   - {t: ▽, type: trans}
